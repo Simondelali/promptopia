@@ -50,7 +50,7 @@ const Nav = () => {
 
               <Link href="/profile">
                 <Image
-                src="/assets/images/logo.svg"
+                src="/assets/images/defaultimg.jpg"
                 width={37}
                 height={37}
                 className='rounded-full' 
@@ -83,7 +83,7 @@ const Nav = () => {
           {isUserLoggedIn ? (
             <div className='flex'>
               <Image
-                src="/assets/images/logo.svg"
+                src="/assets/images/defaultimg.jpg"
                 width={37}
                 height={37}
                 className='rounded-full' 
